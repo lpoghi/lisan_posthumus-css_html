@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta author = "Lisan Posthumus Ghielen">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<title>mijnenveld voor je voeten</title>
+</head>
+<body>
+<nav class="navbar">
+		<ul>
+		  <li><a href="index.html">Home</a></li>
+		  <li><a href="contact.html">Contact</a></li>
+		</ul>
+	</nav>
+	<header class="container">
+		<section class="hero">
+			<p>LEGO</p>
+		</section>
+		<a href="speelgoed.html" class="button1">Speelgoed</a>
+		<a href="mijnenveld.html" class="button2">Mijnvenveld voor je voeten</a>
+	</header>
+	<main>
+		<section>
+			<h1>Wat vind jij?</h1>
+			<p>Wil jij ons laten weten wat jij vind? of heb je een andere vraag? Vul jouw gegevens in</p>
+		</section>
+		<form name="contact" method="POST" data-netlify="true">
+		  <p>
+		    <label>Name: <input type="text" name="name" /></label>   
+		  </p>
+		  <p>
+		    <label>Email: <input type="email" name="email" /></label>
+		  </p>
+		  <p>
+		    <label>Leeftijd: <input type="number" name="age" /></label>
+		  </p>
+		  <p>
+		    <label>Speelgoed<input type="checkbox" name="keuze"></label>
+		    <label>Mijnenveld<input type="checkbox" name="keuze"></label>
+		  </p>
+		  <p>
+		    <label> <textarea name="message" placeholder="Vertel ons er alles over"></textarea></label>
+		  </p>
+		  <p>
+		    <button type="submit">Verzenden</button>
+		  </p>
+		</form>
+	</main>
+	<footer>
+		<p>copyright 2021 &copy</p>
+	</footer>
+</body>
+</html>
